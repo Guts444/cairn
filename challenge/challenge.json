@@ -1,0 +1,49 @@
+{
+  "algorithm": "Cairn-128/256-v0.1",
+  "rounds": 16,
+  "track": "full-round",
+  "known_pairs": [
+    {
+      "plaintext": "44ecb2b2977a6caf5d89608c91881c3a",
+      "ciphertext": "6e3f811bcae5e0a7cfcbcda98b0efbed"
+    },
+    {
+      "plaintext": "7d086dbdec68c642106dde9bafd1463c",
+      "ciphertext": "bd7008c8a80981e100f6278bfbb1c5c7"
+    },
+    {
+      "plaintext": "4f885673daf60bbd99809f094557711b",
+      "ciphertext": "d4f2104968cace0fc1414ff95f6f9da9"
+    },
+    {
+      "plaintext": "e2f6b51cd133bf8e85fc7a348a6efe99",
+      "ciphertext": "18cdd0c6865daa7db2ed259e38ed7b5c"
+    },
+    {
+      "plaintext": "f1c45e679d2b3270556de9642a004aad",
+      "ciphertext": "9e5f5f446713984d0884a38508065205"
+    },
+    {
+      "plaintext": "db1286b045d65e7f90cf5dcc77205e5f",
+      "ciphertext": "cbb5283db788c8e10a61d7349de7eefe"
+    },
+    {
+      "plaintext": "68ea9617a9e4dde60fc25c9181789f8c",
+      "ciphertext": "f0b7007e6f85748b5a4fccc700db7a23"
+    },
+    {
+      "plaintext": "26e365026f5306b398844ff7f5686539",
+      "ciphertext": "c1912ce3c827194100f2b9dd9001eb64"
+    }
+  ],
+  "target_ciphertext": "25e517ca5db6f9bda51d58f3fecfbeb312e602522d57b31ba9a25a9d0c1c2f600fcf294957f0b80e010ba97dd0568bdf0f5daf0e078496e3a0af8a24fc81c2a6",
+  "target_plaintext_sha256": "44587ad8cadfb84f0e2abf4a2528bc224e863aa5b58e19c9cc3f53e5c6c9610c",
+  "target_bytes": 64,
+  "oracle_query_budget": 0,
+  "goals": [
+    "recover the master key",
+    "recover all 64 target plaintext bytes"
+  ],
+  "mode": "four independent raw blocks, no file wrapper",
+  "note": "Public release: offline known-plaintext track only; no challenge-key encryption or decryption oracle is available. Original pairs, target and commitment are unchanged."
+}

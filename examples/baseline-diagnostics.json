@@ -1,0 +1,79 @@
+{
+  "seed": 20261017,
+  "plaintext_avalanche": [
+    {
+      "rounds": 1,
+      "trials": 512,
+      "mean_changed_bits": 9.12109375,
+      "minimum": 1,
+      "maximum": 38
+    },
+    {
+      "rounds": 2,
+      "trials": 512,
+      "mean_changed_bits": 31.80859375,
+      "minimum": 8,
+      "maximum": 80
+    },
+    {
+      "rounds": 4,
+      "trials": 512,
+      "mean_changed_bits": 63.322265625,
+      "minimum": 47,
+      "maximum": 82
+    },
+    {
+      "rounds": 8,
+      "trials": 512,
+      "mean_changed_bits": 64.365234375,
+      "minimum": 47,
+      "maximum": 78
+    },
+    {
+      "rounds": 16,
+      "trials": 512,
+      "mean_changed_bits": 64.400390625,
+      "minimum": 47,
+      "maximum": 80
+    }
+  ],
+  "key_avalanche": {
+    "trials": 256,
+    "mean_changed_bits": 63.97265625,
+    "minimum": 49,
+    "maximum": 80
+  },
+  "fixed_difference": {
+    "input_xor": "00000000000000010000000000000000",
+    "pairs": 512,
+    "distinct_output_differences": 512,
+    "top_counts": [
+      [
+        "6ddf708acb858f70ddaedd9b4a512830",
+        1
+      ],
+      [
+        "277c165b06bddb8d8e6a670fb51cdc49",
+        1
+      ],
+      [
+        "63b8da716f78be84e62f72763495e552",
+        1
+      ],
+      [
+        "a2eb96b543dbf798f2e1cab6e4ad0b7e",
+        1
+      ],
+      [
+        "b3c83852c7801a906fec5c83d388ee5f",
+        1
+      ]
+    ]
+  },
+  "performance": {
+    "blocks": 512,
+    "seconds": 0.008226900004956406,
+    "bytes_per_second": 995757.8182626044
+  },
+  "interpretation": "Sanity diagnostics only. Diffusion and no sampled collisions do not establish security."
+}

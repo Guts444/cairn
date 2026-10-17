@@ -1,0 +1,2723 @@
+{
+  "algorithm": "Cairn-128/256-v0.1",
+  "two_round": {
+    "rounds": 2,
+    "pairs": 256,
+    "identity_hits": 256
+  },
+  "batch_validation": {
+    "batch_vs_original_blocks": 1024,
+    "round_counts": 16,
+    "ellie_bit1_mask": "9da28b88c58ab380"
+  },
+  "linear_algebra": {
+    "L1_order": 8,
+    "L2_order": 8,
+    "M_order": 64,
+    "skeleton_fixed_space_dimensions": {
+      "3": 2,
+      "12": 8,
+      "16": 0,
+      "48": 32
+    }
+  },
+  "ellie_original_seeds": [
+    {
+      "rounds": 3,
+      "keys": 16,
+      "pairs_per_key": 8192,
+      "pairs": 131072,
+      "seed": 991026,
+      "bit1_ones": 0,
+      "bit1_rate": 0.0,
+      "low12_zeroes": 131072,
+      "key_rate_min": 0.0,
+      "key_rate_max": 0.0,
+      "per_key": [
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 8192
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 8192
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 8192
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 8192
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 8192
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 8192
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 8192
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 8192
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 8192
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 8192
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 8192
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 8192
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 8192
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 8192
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 8192
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 8192
+        }
+      ]
+    },
+    {
+      "rounds": 4,
+      "keys": 16,
+      "pairs_per_key": 8192,
+      "pairs": 131072,
+      "seed": 991049,
+      "bit1_ones": 128088,
+      "bit1_rate": 0.97723388671875,
+      "low12_zeroes": 0,
+      "key_rate_min": 0.9669189453125,
+      "key_rate_max": 0.99072265625,
+      "per_key": [
+        {
+          "bit1_ones": 8031,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 7971,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 8027,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 8011,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 8073,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 8032,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 7923,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 8049,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 7931,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 8000,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 8116,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 7997,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 8013,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 7935,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 7921,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 8058,
+          "low12_zeroes": 0
+        }
+      ]
+    },
+    {
+      "rounds": 5,
+      "keys": 16,
+      "pairs_per_key": 8192,
+      "pairs": 131072,
+      "seed": 991072,
+      "bit1_ones": 65512,
+      "bit1_rate": 0.49981689453125,
+      "low12_zeroes": 31,
+      "key_rate_min": 0.4930419921875,
+      "key_rate_max": 0.5184326171875,
+      "per_key": [
+        {
+          "bit1_ones": 4051,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 4126,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4041,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 4070,
+          "low12_zeroes": 4
+        },
+        {
+          "bit1_ones": 4064,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 4093,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 4057,
+          "low12_zeroes": 4
+        },
+        {
+          "bit1_ones": 4091,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 4090,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 4132,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 4111,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4082,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 4087,
+          "low12_zeroes": 4
+        },
+        {
+          "bit1_ones": 4131,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 4039,
+          "low12_zeroes": 3
+        },
+        {
+          "bit1_ones": 4247,
+          "low12_zeroes": 0
+        }
+      ]
+    },
+    {
+      "rounds": 16,
+      "keys": 16,
+      "pairs_per_key": 8192,
+      "pairs": 131072,
+      "seed": 991325,
+      "bit1_ones": 65623,
+      "bit1_rate": 0.5006637573242188,
+      "low12_zeroes": 24,
+      "key_rate_min": 0.491455078125,
+      "key_rate_max": 0.5076904296875,
+      "per_key": [
+        {
+          "bit1_ones": 4145,
+          "low12_zeroes": 3
+        },
+        {
+          "bit1_ones": 4154,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4157,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 4080,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4073,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 4123,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 4078,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 4056,
+          "low12_zeroes": 3
+        },
+        {
+          "bit1_ones": 4120,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 4073,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 4159,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 4085,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 4106,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 4094,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 4094,
+          "low12_zeroes": 3
+        },
+        {
+          "bit1_ones": 4026,
+          "low12_zeroes": 1
+        }
+      ]
+    }
+  ],
+  "ellie_fresh_keys": [
+    {
+      "rounds": 3,
+      "keys": 64,
+      "pairs_per_key": 4096,
+      "pairs": 262144,
+      "seed": 96511760,
+      "bit1_ones": 0,
+      "bit1_rate": 0.0,
+      "low12_zeroes": 262144,
+      "key_rate_min": 0.0,
+      "key_rate_max": 0.0,
+      "per_key": [
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        },
+        {
+          "bit1_ones": 0,
+          "low12_zeroes": 4096
+        }
+      ]
+    },
+    {
+      "rounds": 4,
+      "keys": 64,
+      "pairs_per_key": 4096,
+      "pairs": 262144,
+      "seed": 96511760,
+      "bit1_ones": 256074,
+      "bit1_rate": 0.9768447875976562,
+      "low12_zeroes": 1,
+      "key_rate_min": 0.960205078125,
+      "key_rate_max": 0.9970703125,
+      "per_key": [
+        {
+          "bit1_ones": 3943,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4041,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3954,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4024,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3980,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4018,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3999,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3981,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3970,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4008,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3936,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4018,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4017,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4004,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4033,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3990,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4026,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4038,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4003,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4013,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3994,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4020,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3961,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 4057,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4020,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3964,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4006,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4079,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4030,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3991,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3945,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3960,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4000,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4019,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3968,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3992,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4018,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3986,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3996,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3995,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3947,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3951,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4000,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3978,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4046,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4050,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3985,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4034,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3991,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4034,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4048,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4036,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4084,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3996,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4030,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4028,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3956,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3933,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3994,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3952,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4014,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 3953,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4027,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 4010,
+          "low12_zeroes": 0
+        }
+      ]
+    },
+    {
+      "rounds": 5,
+      "keys": 64,
+      "pairs_per_key": 4096,
+      "pairs": 262144,
+      "seed": 96511760,
+      "bit1_ones": 131196,
+      "bit1_rate": 0.5004730224609375,
+      "low12_zeroes": 53,
+      "key_rate_min": 0.451904296875,
+      "key_rate_max": 0.568115234375,
+      "per_key": [
+        {
+          "bit1_ones": 2014,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2070,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 2039,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 1978,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2028,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2057,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2095,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2006,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2047,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2073,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2072,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2045,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2045,
+          "low12_zeroes": 3
+        },
+        {
+          "bit1_ones": 2094,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 2041,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2027,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2005,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2095,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2075,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2140,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2073,
+          "low12_zeroes": 3
+        },
+        {
+          "bit1_ones": 1998,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2105,
+          "low12_zeroes": 3
+        },
+        {
+          "bit1_ones": 2049,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2046,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2017,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2053,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 1851,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2071,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2057,
+          "low12_zeroes": 3
+        },
+        {
+          "bit1_ones": 2066,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2066,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2020,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 1970,
+          "low12_zeroes": 3
+        },
+        {
+          "bit1_ones": 2109,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2039,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2105,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2038,
+          "low12_zeroes": 3
+        },
+        {
+          "bit1_ones": 2014,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 2047,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 2023,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2035,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2005,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2076,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2050,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2032,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2118,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2035,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2020,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2046,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2064,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2010,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2327,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2032,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2051,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2036,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2028,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2024,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2004,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2033,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2123,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2116,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2045,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2023,
+          "low12_zeroes": 2
+        }
+      ]
+    },
+    {
+      "rounds": 16,
+      "keys": 64,
+      "pairs_per_key": 4096,
+      "pairs": 262144,
+      "seed": 96511760,
+      "bit1_ones": 130415,
+      "bit1_rate": 0.4974937438964844,
+      "low12_zeroes": 57,
+      "key_rate_min": 0.48095703125,
+      "key_rate_max": 0.513916015625,
+      "per_key": [
+        {
+          "bit1_ones": 2065,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 1997,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 1970,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2062,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2052,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 2084,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2085,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2049,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2082,
+          "low12_zeroes": 3
+        },
+        {
+          "bit1_ones": 2105,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2076,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2044,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2008,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2016,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 2006,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2055,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2032,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2050,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 1992,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2006,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2066,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 2049,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2035,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2020,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2013,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 1990,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 2048,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2023,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2029,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 1994,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2048,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2082,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2014,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2045,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2006,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2038,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2042,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2076,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2031,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 2070,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2072,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 2050,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 2059,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2036,
+          "low12_zeroes": 3
+        },
+        {
+          "bit1_ones": 1995,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 1994,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2014,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2061,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2080,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 2013,
+          "low12_zeroes": 3
+        },
+        {
+          "bit1_ones": 2021,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2003,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2031,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2056,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2030,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2011,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2018,
+          "low12_zeroes": 3
+        },
+        {
+          "bit1_ones": 2028,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 2060,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2077,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2048,
+          "low12_zeroes": 2
+        },
+        {
+          "bit1_ones": 2055,
+          "low12_zeroes": 1
+        },
+        {
+          "bit1_ones": 2036,
+          "low12_zeroes": 0
+        },
+        {
+          "bit1_ones": 2012,
+          "low12_zeroes": 0
+        }
+      ]
+    }
+  ],
+  "full_round_replication": {
+    "rounds": 16,
+    "keys": 256,
+    "pairs_per_key": 8192,
+    "pairs": 2097152,
+    "seed": 381747182,
+    "bit1_ones": 1047416,
+    "bit1_rate": 0.4994468688964844,
+    "low12_zeroes": 471,
+    "key_rate_min": 0.4853515625,
+    "key_rate_max": 0.51318359375,
+    "per_key": [
+      {
+        "bit1_ones": 4090,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4122,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4046,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4020,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4061,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4097,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4075,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4060,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4152,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4091,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4112,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4186,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4031,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4057,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4082,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4115,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4025,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4139,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4057,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4108,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4139,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4143,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4097,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4011,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4058,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4011,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4078,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4104,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4098,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4128,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4053,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4111,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4069,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4085,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4166,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4169,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4073,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4022,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4081,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4101,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4137,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4012,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4109,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4092,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4022,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4134,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4188,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4078,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4081,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4038,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4120,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4141,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4083,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4063,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4083,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4149,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4128,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4061,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4091,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4051,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4083,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4103,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 3996,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4105,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4132,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4050,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4054,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4114,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4186,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4057,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4118,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4011,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4120,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4045,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4161,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4041,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4114,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4099,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4069,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4042,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4098,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4149,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4072,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4094,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4063,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4067,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4087,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4107,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4072,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4122,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4051,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4070,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4125,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4168,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4084,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4128,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4134,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4125,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4160,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4140,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4098,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4092,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4153,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4138,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4098,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4201,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4064,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4049,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4097,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4121,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4062,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4091,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4003,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4082,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4059,
+        "low12_zeroes": 5
+      },
+      {
+        "bit1_ones": 4133,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4061,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4141,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4083,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4151,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 3992,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4089,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4085,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4118,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4098,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4128,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4007,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4118,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4095,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4100,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4085,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4057,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4098,
+        "low12_zeroes": 6
+      },
+      {
+        "bit1_ones": 4069,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4122,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4089,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4155,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4062,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4139,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4047,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4075,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4202,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4075,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4068,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4033,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4068,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4043,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4061,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4021,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4105,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4120,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4035,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4139,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4008,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4067,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4132,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4030,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4132,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4085,
+        "low12_zeroes": 5
+      },
+      {
+        "bit1_ones": 4123,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4091,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4146,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4055,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4200,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4132,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 3976,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4126,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4204,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4079,
+        "low12_zeroes": 5
+      },
+      {
+        "bit1_ones": 4008,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4115,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4143,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4145,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4065,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4192,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4063,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4071,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4085,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4091,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4068,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4072,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4051,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4127,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4054,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4048,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4178,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4088,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4139,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 3979,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4073,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4134,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4082,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4169,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4058,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4085,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4066,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4095,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4103,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4115,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4077,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4075,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4113,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4106,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4087,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4085,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4027,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4082,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4067,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4116,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4031,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4104,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4102,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4068,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4109,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4073,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4127,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4173,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4144,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4085,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4120,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4093,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4026,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4027,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4112,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4132,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4099,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4125,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4114,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4078,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4110,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4077,
+        "low12_zeroes": 5
+      },
+      {
+        "bit1_ones": 4125,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4071,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4059,
+        "low12_zeroes": 5
+      },
+      {
+        "bit1_ones": 4122,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4099,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 3987,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4045,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4117,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4118,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4118,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4095,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4079,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4039,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4067,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4130,
+        "low12_zeroes": 2
+      },
+      {
+        "bit1_ones": 4033,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4186,
+        "low12_zeroes": 4
+      },
+      {
+        "bit1_ones": 4042,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4120,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4085,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4026,
+        "low12_zeroes": 3
+      },
+      {
+        "bit1_ones": 4026,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4103,
+        "low12_zeroes": 0
+      },
+      {
+        "bit1_ones": 4092,
+        "low12_zeroes": 1
+      },
+      {
+        "bit1_ones": 4145,
+        "low12_zeroes": 2
+      }
+    ]
+  },
+  "per_key_heldout": [
+    {
+      "rounds": 5,
+      "keys": 64,
+      "pairs_per_key": 65536,
+      "pooled_rate": 0.5004642009735107,
+      "minimum_key_rate": 0.4517974853515625,
+      "maximum_key_rate": 0.5652313232421875,
+      "keys_exceeding_5sigma": 5,
+      "sum_squared_z": 2120.0607299804688,
+      "null_expected_sum_squared_z": 64,
+      "per_key_ones": [
+        32944,
+        33015,
+        32687,
+        32333,
+        32361,
+        32677,
+        34435,
+        32769,
+        32824,
+        32847,
+        32878,
+        32827,
+        32027,
+        32784,
+        32671,
+        32496,
+        32489,
+        33539,
+        32880,
+        32815,
+        33188,
+        32646,
+        32903,
+        32898,
+        32892,
+        32806,
+        32756,
+        29609,
+        32946,
+        32598,
+        33025,
+        32842,
+        32620,
+        32167,
+        32931,
+        32603,
+        32919,
+        32734,
+        32850,
+        32807,
+        32649,
+        32766,
+        32493,
+        32885,
+        32568,
+        32982,
+        32783,
+        32801,
+        32772,
+        33124,
+        32604,
+        32405,
+        37043,
+        32793,
+        32437,
+        32345,
+        32791,
+        33215,
+        33011,
+        32756,
+        32787,
+        32715,
+        32633,
+        32703
+      ],
+      "original_scalar_heldout": [
+        {
+          "key_index": 27,
+          "pairs": 8192,
+          "bit1_ones": 3632,
+          "rate": 0.443359375,
+          "key_sha256": "6a06eee68ca4f8af06923fb45dbf2065ac75387573afb94ff205ffb79aa2df78"
+        },
+        {
+          "key_index": 52,
+          "pairs": 8192,
+          "bit1_ones": 4723,
+          "rate": 0.5765380859375,
+          "key_sha256": "40d0f393ea8a935a675fc3b34709f85ef8248ea226b7c0f3d02e219e8fdc4699"
+        }
+      ]
+    },
+    {
+      "rounds": 6,
+      "keys": 64,
+      "pairs_per_key": 65536,
+      "pooled_rate": 0.5000159740447998,
+      "minimum_key_rate": 0.4942626953125,
+      "maximum_key_rate": 0.505218505859375,
+      "keys_exceeding_5sigma": 0,
+      "sum_squared_z": 68.95269775390625,
+      "null_expected_sum_squared_z": 64,
+      "per_key_ones": [
+        32630,
+        32768,
+        32856,
+        32640,
+        32631,
+        32928,
+        33110,
+        32944,
+        32771,
+        32620,
+        32438,
+        32715,
+        32853,
+        32750,
+        32688,
+        32658,
+        32693,
+        32733,
+        32834,
+        32919,
+        32897,
+        32932,
+        32791,
+        32952,
+        32923,
+        32739,
+        32801,
+        32628,
+        32844,
+        32563,
+        32607,
+        32771,
+        32702,
+        32870,
+        32789,
+        32847,
+        32890,
+        32742,
+        32860,
+        32866,
+        32722,
+        32888,
+        32611,
+        32644,
+        32698,
+        32588,
+        32833,
+        32856,
+        32568,
+        32842,
+        32979,
+        32706,
+        32672,
+        32768,
+        32726,
+        32795,
+        32392,
+        32957,
+        32943,
+        32674,
+        32703,
+        32795,
+        32892,
+        32774
+      ]
+    },
+    {
+      "rounds": 16,
+      "keys": 64,
+      "pairs_per_key": 65536,
+      "pooled_rate": 0.5000510215759277,
+      "minimum_key_rate": 0.4932098388671875,
+      "maximum_key_rate": 0.5047760009765625,
+      "keys_exceeding_5sigma": 0,
+      "sum_squared_z": 81.789306640625,
+      "null_expected_sum_squared_z": 64,
+      "per_key_ones": [
+        32919,
+        32813,
+        32657,
+        32796,
+        32797,
+        32833,
+        32818,
+        32686,
+        32814,
+        32748,
+        32825,
+        32691,
+        32932,
+        32902,
+        32847,
+        32708,
+        32962,
+        32634,
+        32684,
+        32508,
+        32856,
+        32935,
+        32578,
+        32651,
+        32867,
+        32681,
+        32935,
+        32751,
+        32753,
+        32609,
+        32780,
+        32807,
+        32980,
+        32980,
+        32562,
+        33031,
+        32751,
+        32764,
+        32654,
+        32852,
+        32323,
+        33081,
+        32776,
+        32759,
+        32850,
+        32618,
+        32644,
+        32620,
+        32931,
+        32920,
+        32778,
+        32693,
+        32851,
+        32894,
+        32923,
+        32896,
+        32749,
+        32455,
+        32727,
+        32797,
+        32660,
+        32613,
+        32516,
+        32941
+      ]
+    }
+  ],
+  "selected_key_differential": {
+    "rounds": 4,
+    "public_test_key": "80a557b4d8e5a404b1905568b0af068817ad63cabed2f9119950807984d97a61",
+    "pairs": 16777216,
+    "hits": 765,
+    "input_difference": [
+      "0400260010000022",
+      "8000000000000000"
+    ],
+    "output_difference": [
+      "0400260010000022",
+      "8220000008280808"
+    ],
+    "scope": "Selected test key, not a proven full-round weak-key class."
+  },
+  "scope": "Public deterministic test keys only; no challenge-key queries or key recovery."
+}

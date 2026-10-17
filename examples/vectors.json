@@ -1,0 +1,126 @@
+{
+  "algorithm": "Cairn-128/256-v0.1",
+  "warning": "All keys in this file are PUBLIC test data.",
+  "vectors": [
+    {
+      "key": "0000000000000000000000000000000000000000000000000000000000000000",
+      "plaintext": "00000000000000000000000000000000",
+      "rounds": 1,
+      "ciphertext": "00000000000000007868618e4626e9b5"
+    },
+    {
+      "key": "0000000000000000000000000000000000000000000000000000000000000000",
+      "plaintext": "00000000000000000000000000000000",
+      "rounds": 2,
+      "ciphertext": "7868618e4626e9b507f36870778c25a9"
+    },
+    {
+      "key": "0000000000000000000000000000000000000000000000000000000000000000",
+      "plaintext": "00000000000000000000000000000000",
+      "rounds": 4,
+      "ciphertext": "c2f770df27bec0183ac63b8a007b6eb5"
+    },
+    {
+      "key": "0000000000000000000000000000000000000000000000000000000000000000",
+      "plaintext": "00000000000000000000000000000000",
+      "rounds": 8,
+      "ciphertext": "e656d51549192186c4126999c729fefa"
+    },
+    {
+      "key": "0000000000000000000000000000000000000000000000000000000000000000",
+      "plaintext": "00000000000000000000000000000000",
+      "rounds": 16,
+      "ciphertext": "d1fc1fe082ce8c5d91ae747c7c75fa5d"
+    },
+    {
+      "key": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "plaintext": "ffffffffffffffffffffffffffffffff",
+      "rounds": 1,
+      "ciphertext": "ffffffffffffffff3b7d1469dd95201c"
+    },
+    {
+      "key": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "plaintext": "ffffffffffffffffffffffffffffffff",
+      "rounds": 2,
+      "ciphertext": "3b7d1469dd95201c34f2ad13a5e390d1"
+    },
+    {
+      "key": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "plaintext": "ffffffffffffffffffffffffffffffff",
+      "rounds": 4,
+      "ciphertext": "f0c13da15335291a553586cbf31a9e40"
+    },
+    {
+      "key": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "plaintext": "ffffffffffffffffffffffffffffffff",
+      "rounds": 8,
+      "ciphertext": "1dbc94453e595290d44bd59f60528098"
+    },
+    {
+      "key": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "plaintext": "ffffffffffffffffffffffffffffffff",
+      "rounds": 16,
+      "ciphertext": "9e5238d9a71955404b7cc0ac6c63a7e0"
+    },
+    {
+      "key": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "plaintext": "000102030405060708090a0b0c0d0e0f",
+      "rounds": 1,
+      "ciphertext": "08090a0b0c0d0e0fc181c0f2d33a079e"
+    },
+    {
+      "key": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "plaintext": "000102030405060708090a0b0c0d0e0f",
+      "rounds": 2,
+      "ciphertext": "c181c0f2d33a079e2202e256b12f7231"
+    },
+    {
+      "key": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "plaintext": "000102030405060708090a0b0c0d0e0f",
+      "rounds": 4,
+      "ciphertext": "2201daaf8b1eec90278e503031de8cc1"
+    },
+    {
+      "key": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "plaintext": "000102030405060708090a0b0c0d0e0f",
+      "rounds": 8,
+      "ciphertext": "d9081191aaac8897dac514a09a6e7a68"
+    },
+    {
+      "key": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+      "plaintext": "000102030405060708090a0b0c0d0e0f",
+      "rounds": 16,
+      "ciphertext": "c65ec2f5958c6b797d4f5b3cdc0fdb25"
+    },
+    {
+      "key": "1f1e1d1c1b1a191817161514131211100f0e0d0c0b0a09080706050403020100",
+      "plaintext": "80000000000000000000000000000001",
+      "rounds": 1,
+      "ciphertext": "000000000000000175c3debd1c8107eb"
+    },
+    {
+      "key": "1f1e1d1c1b1a191817161514131211100f0e0d0c0b0a09080706050403020100",
+      "plaintext": "80000000000000000000000000000001",
+      "rounds": 2,
+      "ciphertext": "75c3debd1c8107eb965ab92407487b76"
+    },
+    {
+      "key": "1f1e1d1c1b1a191817161514131211100f0e0d0c0b0a09080706050403020100",
+      "plaintext": "80000000000000000000000000000001",
+      "rounds": 4,
+      "ciphertext": "00f9b90cf04ab460425bec0219f38d06"
+    },
+    {
+      "key": "1f1e1d1c1b1a191817161514131211100f0e0d0c0b0a09080706050403020100",
+      "plaintext": "80000000000000000000000000000001",
+      "rounds": 8,
+      "ciphertext": "b3c0f523a30207cd073a26c391603576"
+    },
+    {
+      "key": "1f1e1d1c1b1a191817161514131211100f0e0d0c0b0a09080706050403020100",
+      "plaintext": "80000000000000000000000000000001",
+      "rounds": 16,
+      "ciphertext": "80de5b69cb1259e65fe3fc12b33465cb"
+    }
+  ]
+}

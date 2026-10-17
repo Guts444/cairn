@@ -1,0 +1,9 @@
+[project]
+name = "cairn-research-cipher"
+version = "0.1.0"
+description = "An experimental Feistel cipher and reproducible cryptanalysis lab"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools]
+packages = ["cairn"]

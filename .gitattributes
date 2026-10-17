@@ -1,0 +1,2 @@
+# Preserve the frozen byte hashes across Git checkouts on every platform.
+* -text

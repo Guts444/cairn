@@ -1,0 +1,9 @@
+{
+  "attack": "one-round chosen-plaintext structural distinguisher",
+  "rounds": 1,
+  "pairs": 64,
+  "queries": 128,
+  "matching_pairs": 64,
+  "expected_random_permutation_probability_per_pair": "1 / (2^128 - 1)",
+  "scope": "Reduced-round positive control; not key recovery or a 16-round break."
+}

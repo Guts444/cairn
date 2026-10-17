@@ -1,0 +1,10 @@
+{
+  "cairn/__init__.py": "f510bcc4959bd9005cffbfe3806bf1e48d2640395852a921dc303f29e68bea27",
+  "cairn/__main__.py": "ab5333e64ed0b15448bb2b445f2f9fe1ad79d8d3f4025e13606594a159a56c35",
+  "cairn/core.py": "cb0257d8526c2b7ae0e8f7be0aa1043d1239b5252cd371692b48f22332d2bd77",
+  "cairn/files.py": "fa3c80f75ac7dda57aa01b0d490cd8b61490788c6baed14d28b36afa56f06216",
+  "docs/SPEC.md": "583aa5b9e9f77b2fff5c1f0c1974fe2466ef2c5e647fb2443abecb231f587bc8",
+  "examples/vectors.json": "c1ef4a88220101efa906a28234e8e52bf80a060fdfc4365bb634b6f463a4252a",
+  "tests/reference.py": "6cba2aa5b2cd0b6e212c95c54cd58e2af8a6357fb1e1833c01736c68aac50c8c",
+  "challenge_identity": "177f3acf656d65dc78dc5f99f4ca87ea6f1c8a2e4028332ba61aa1d35fa5f1e3"
+}
