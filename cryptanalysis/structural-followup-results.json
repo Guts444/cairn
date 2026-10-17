@@ -1,0 +1,64 @@
+{
+  "numpy_seed": 12851120,
+  "observations": [
+    {
+      "key_name": "range32",
+      "pairs": 1048576,
+      "four_round_original_parity_ones": 1016407,
+      "analytical_parity_interval": {
+        "retained_outputs": 256,
+        "prefix_width": 256,
+        "omitted_probability_mass": {
+          "numerator": 121134179585,
+          "denominator": 36028797018963968
+        },
+        "parity_ones_probability_lower": {
+          "numerator": 78656121935746132579179593956847,
+          "denominator": 81129638414606681695789005144064
+        },
+        "parity_ones_probability_upper": {
+          "numerator": 78656394705669152997551491218927,
+          "denominator": 81129638414606681695789005144064
+        }
+      }
+    },
+    {
+      "key_name": "selected4",
+      "pairs": 1048576,
+      "four_round_original_parity_ones": 1017839,
+      "analytical_parity_interval": {
+        "retained_outputs": 256,
+        "prefix_width": 256,
+        "omitted_probability_mass": {
+          "numerator": 1571810697461,
+          "denominator": 576460752303423488
+        },
+        "parity_ones_probability_lower": {
+          "numerator": 1260045005296770552210648864595021,
+          "denominator": 1298074214633706907132624082305024
+        },
+        "parity_ones_probability_upper": {
+          "numerator": 1260048544699806243370160471350349,
+          "denominator": 1298074214633706907132624082305024
+        }
+      },
+      "new_internal_trail_hits": 108,
+      "new_endpoint_differential_hits": 108,
+      "old_endpoint_differential_hits": 44,
+      "new_endpoint_difference": [
+        288272157862002722,
+        11700354443402283018
+      ],
+      "old_endpoint_difference": [
+        288272157862002722,
+        9376494424322213896
+      ],
+      "input_difference": [
+        288272157862002722,
+        9223372036854775808
+      ],
+      "first_plaintext_witness": "5103e490d341b6531b4e9aceebcb4537",
+      "frozen_scalar_encryptions_of_new_trail_hits": 216
+    }
+  ]
+}

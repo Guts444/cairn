@@ -41,3 +41,15 @@ python -m tools.bundle --challenge challenge/challenge.json --output dist/cairn-
 The source release ZIP includes `SHA256SUMS.json` covering its other members.
 Checksums identify bytes; they are not digital signatures or proof of security.
 The old local archive remains preserved separately, with its original checksum.
+
+## Subsequent structural analysis, 2026-10-17
+
+The schematics and keyed-addition/differential analysis were added after the
+initial public commit `e6e5b8c8df21e1847c434d6366aff8e0c8877471`. The primitive,
+wrapper, specification, vectors, challenge identity, original research scripts
+and original saved measurements remain unchanged. New research files and diagrams
+are explicitly included in the bundle allowlist; CI also reproduces their saved
+results. The additional private image/container experiment is discussed only in
+a scope review; its ciphertext, image, local report and guessing scripts were not
+imported. This documentation update does not replace the original frozen archive
+or alter its checksum.

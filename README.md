@@ -10,6 +10,12 @@ the key. No full-round break or challenge solution has been verified in the work
 so far. The most interesting open question is why that five-round bias occurs
 and whether it can be extended.
 
+New [structural analysis](cryptanalysis/STRUCTURAL.md) classifies exactly which
+round keys make the function affine, constructs reachable schedule examples,
+and derives tight fixed-key bounds for the four-round parity statistic. A
+carry-aware search improves the selected-key four-round endpoint; its 16-round
+candidates do not establish full-round differential bounds.
+
 This is a learning and research project, developed and attacked with AI agents.
 It makes no security-level or novelty claim. **Do not use Cairn to protect real
 secrets.** A 256-bit key parameter is not a demonstrated 256-bit security level.
@@ -27,6 +33,9 @@ python -m tools.vectors
 The [specification](docs/SPEC.md) defines every operation and encoding;
 [`cairn/core.py`](cairn/core.py) is the complete primitive. Reduced-round variants
 use the first 1–16 keys from the unchanged full key schedule.
+
+[Technical schematics](docs/SCHEMATICS.md) show the complete Feistel round,
+both keyed additions and rotation/XOR layers, and the 256-bit key schedule.
 
 ```python
 from cairn.core import Cipher
@@ -51,6 +60,11 @@ These are different attack types, not a measured security curve. The five-round
 result applies to some tested keys; it is not yet a calibrated blind classifier
 for arbitrary keys. See [findings and derivation](cryptanalysis/FINDINGS.md),
 [saved counts](cryptanalysis/results.json), and [credits and corrections](cryptanalysis/REVIEW.md).
+
+See also the [keyed-addition derivations and initial trail search](cryptanalysis/STRUCTURAL.md),
+[new reproducible counts](cryptanalysis/structural-results.json),
+[held-out validation](cryptanalysis/structural-followup-results.json), and
+[scope of the additional external feedback](cryptanalysis/EXTERNAL_REVIEW.md).
 
 Reproduce the main findings without any local contestant folders:
 
