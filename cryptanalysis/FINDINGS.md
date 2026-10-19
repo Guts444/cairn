@@ -13,6 +13,35 @@ The exported script has no dependencies on author or contestant directories.
 NumPy's batch path is checked against the original scalar on 1,024 blocks spanning
 all round counts. The parity mask is derived from basis vectors and asserted.
 
+## Literature context
+
+Reduced-round Feistel distinguishability and key-dependent differential
+probabilities are established subjects. The results below are measurements and
+derivations for Cairn, not claims to have discovered those general phenomena.
+Reproducing the saved counts establishes reproducibility, not novelty or a
+security level.
+
+[Canteaut, *Differential cryptanalysis of Feistel ciphers and differentially
+uniform mappings*, SAC'97, pp. 172-184](https://www.rocq.inria.fr/secret/Anne.Canteaut/Publications/sac97.html)
+shows that stochastic equivalence need not hold: differential probabilities
+averaged over round keys can hide substantially different fixed-key behavior.
+Section 3 gives explicit examples and proves an upper bound valid for every
+round-key choice in the studied construction, in terms of the round
+permutation's differential uniformity. See the
+[full proceedings text, especially pp. 175-180](https://sacworkshop.org/proc/SAC_97_007.pdf).
+The general warning about pooling keys therefore predates this experiment.
+
+[Askin Ozdemir, Beyne and Rijmen, *Multidimensional Linear Cryptanalysis of
+Feistel Ciphers*, ToSC 2023(4), pp. 1-27](https://doi.org/10.46586/tosc.v2023.i4.1-27)
+provides further context for reduced-round distinguishers. Its attacks exploit
+key-independent linear trails in Feistel ciphers with non-invertible round
+functions and key addition only at the input. Those assumptions differ from
+Cairn's invertible, twice-keyed round function. Its capacities (Table 4) sum
+squared linear correlations; the statistic below is a parity of an output
+difference for a chosen input difference. The quantities should not be compared
+as if they were the same probability. See the
+[full paper, Sections 3-4](https://tosc.iacr.org/index.php/ToSC/article/download/11277/10810).
+
 ## Exact two-/three-round relations
 
 For a two-round Feistel network and equal input right halves,
@@ -57,6 +86,10 @@ by multiplying single-addition probabilities.
 
 ## Five rounds: opposite-sign biases hidden by pooling
 
+Key dependence itself is established background, as discussed above. This
+experiment measures it for one fixed Cairn statistic on a limited set of keys;
+it does not establish a new general phenomenon in Feistel cryptanalysis.
+
 An exploratory sample used 64 keys and 4,096 pairs each. A pooled result close
 to 50% concealed large per-key deviations. Validation reconstructed those same
 keys but used **independent plaintexts, 65,536 pairs per key**. The statistic was
@@ -88,7 +121,7 @@ Extrema were selected exploratorily; their confirmation plaintexts were held out
 
 This demonstrates a five-round keyed statistical weakness for some tested keys.
 It does not recover keys, prove the fraction of affected keys, or establish a
-reliable blind classifier on arbitrary unseen keys. The large validation sample
+reliable blind classifier on arbitrary unseen keys. The validation sample
 uses **131,072 encryptions per key**, exceeding the old 4,096-query agent allowance.
 An oracle-limited challenge attack would need a separate cost/success evaluation.
 The public target has no chosen-plaintext access at all.
