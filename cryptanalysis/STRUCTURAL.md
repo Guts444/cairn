@@ -74,9 +74,26 @@ integer addition weights from an independent-addition model would be unjustified
 This first stage uses a four-state automaton and binary affine-system counting
 instead of starting with expensive solver runs.
 
-## 2. Exactly which round keys are affine?
+## 2. Exactly which subkey pairs make Cairn's round function affine?
 
 Here affine means `f(x)=B*x XOR c` over GF(2); linear additionally requires c=0.
+
+Affine functions and affine key schedules have an established literature in
+Feistel cryptography. [Nachef, Patarin and Volte, *4-point Attacks with Standard
+Deviation Analysis on A-Feistel Schemes* (2014)](https://eprint.iacr.org/2014/446)
+study Feistel constructions containing one or two random affine round
+permutations. [Guo, *Understanding the Related-Key Security of Feistel Ciphers
+from a Provable Perspective* (2019)](https://arxiv.org/abs/1810.07428)
+gives conditions for related-key security with affine key schedules in a
+six-round idealized Feistel construction. An affine key schedule describes the
+map from master key to subkeys; an affine round function describes the map from
+round input to output for fixed subkeys. These are different properties.
+
+Here we characterize exactly which Cairn subkey pairs yield an affine round
+function and, in Section 3, construct master keys that produce those pairs at a
+specified round. We make no claim that this classification is novel. The
+references above provide background; their stated scopes were checked against
+the authors' abstracts, not an exhaustive prior-art search.
 
 ### Constant-addition lemma
 
@@ -128,6 +145,41 @@ also lie in H. Thus **F is linear iff u=v=0**, without exceptions from
 non-affine cancellation. The executable checks verify every pair at five-bit
 toy width and all 16 affine cases at real width; the proof establishes the
 64-bit classification, not the finite tests alone.
+
+### Reproduce the classification and schedule checks
+
+From the repository root, run the following with Python 3.11+ (standard library
+only). Choose a new output filename if `affine-replay.json` already exists; the
+script refuses to overwrite it. `--validate-only` skips the bounded trail search.
+
+```sh
+python -m cryptanalysis.structural --validate-only --output affine-replay.json
+python -c "import json; r=json.load(open('affine-replay.json', encoding='utf-8')); print(json.dumps(r['validation']['checks'], indent=2))"
+```
+
+The second command prints these deterministic check counts:
+
+```json
+{
+  "exhaustive_add_equations_n4": 4096,
+  "exhaustive_add_mask_equations_n4": 4096,
+  "exhaustive_affine_subkey_pairs_n5": 1024,
+  "exhaustive_joint_equations_n5": 65536,
+  "schedule_forward_inverse_keys": 64,
+  "linear_layer_basis_orders": 128,
+  "affine_64bit_evaluations": 256,
+  "constructed_reachable_pairs": 48,
+  "scalar_64bit_checks": 128
+}
+```
+
+[`validate()` in structural.py](structural.py) checks all 1,024 subkey pairs at
+five-bit toy width and checks the 16 affine subkey pairs on selected inputs at
+64-bit width. It also constructs all 16 affine pairs at round indices 0, 7 and
+15 and verifies them through the original key expansion. The JSON's
+`reachability` field contains example master keys and the indices of affine
+rounds in each emitted schedule. These checks support the implementation; the
+proof above establishes the full 64-bit classification.
 
 ### Other locally weak structures
 
